@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 10px;
+    background-image: url(assets/background_imge.jpeg) ;
+  }
+  
+  /* Header/Blog Title */
+  .header { 
+    font-family:  Times, serif;
+    font-size: 28px;
+    padding: 30px;
+    text-align: center;
+    background-image: url(assets/light_gray_background.jpeg);
+    transform: 90deg;
+    background-size:0px;
+  }
+  
+  .header h1 {
+    font-size: 50px;
+  }
+  
+  /* Style the side navigation bar */
+  .topnav {
+    overflow: visible;
+    background-image: url(assets/light_gray_background.jpeg);
+    background-color: rgb(44, 44, 44);
+    
+    
+  
+  }
+  
+  /* Style the topnav links */
+
+  
+  .topnav a { 
+
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: rgb(187, 187, 187);
+    color: rgb(233, 233, 233);
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {  
+    background-image: url(assets/background_imge.jpeg) ; 
+    float: right;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    background-image:url(assets/background_imge.jpeg) ; 
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: rgb(165, 162, 162);
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 20px;
+    align-items: center;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+
+.pov_vid{
+  justify-content: center;
+  width:620px; 
+  heigth:120px;
+    
+}
+.Flowstate_vid{
+  width:620px; 
+  heigth:120px;
+  
+}
+  .mount_anywhere_vid{
+   width:620px; 
+   heigth:120px;
+  }
+.Horizon_vid{
+  width:620px; 
+  heigth:120px;
+}
+header{
+  font-family:'Courier New', Courier, monospace ;
+  font-size: 20px;
+  text-underline-position: below;
+
+}
+h5{font-family:'Courier New', Courier, monospace ;
+  font-size: 18px;
+  text-underline-position: below;
+
+}
+p{font-family:'Courier New', Courier, monospace ;
+  font-size: 20px;
+  text-underline-position: below;
+
+}
+ul{
+  font-family:'Courier New', Courier, monospace ;
+  font-size: 20px;
+  text-underline-position: below;
+}
+li{
+  font-family:'Courier New', Courier, monospace ;
+  font-size: 20px;
+  text-underline-position: below;
+}
+
+
